@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREVIEW</title>
+    <H2 STYLE="font-size:xx-large;">BREVIEW</H2>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #7FFFD4;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    main {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 0 1em;
+    }
+    
+    .feedback-form {
+        background-color:#FAEBD7;
+        padding: 1em;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .feedback-list {
+        background-color:#2F4F4F;
+        padding: 1em;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgb(232, 238, 238);
+    }
+    
+    button {
+        background-color: #e70909;
+        color:#eee9e7;
+        border: none;
+        padding: 0.5em 1em;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #555;
+    }
+    </style>
+    <header>
+        <h1 style="color:rgb(235, 239, 236)">Smartphone Feedback</h1>
+    </header>
+    <main>
+        <section class="feedback-form">
+            <h2>Leave Your Feedback</h2>
+            <form id="feedbackForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phoneModel">Phone Model:</label>
+                <input type="text" id="phoneModel" name="phoneModel" required>
+                
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+        
+        <section class="feedback-list">
+            <h2>Feedback from Users</h2>
+            <ul id="feedbackList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple Heading Example</title>
+</head>
+<body>
+                                 <h1 class="custom-heading">Thanks for visiting</h1>
+</body>
+</html>
+
